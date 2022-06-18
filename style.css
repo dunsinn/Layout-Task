@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#container{
+    width: 60%;
+    font-size: 15px;
+    box-sizing: border-box;
+    display: flex;
+    margin:auto;
+    padding-top: 50px;
+    line-height: 1.5;
+    
+}
+
+#container h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 20px;
+    
+}
+#container p{
+    color: hsl(0, 0%, 95%);
+    margin: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+#box1{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+#box2{
+    background-color: hsl(184, 100%, 22%);
+}
+#box3{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+img{
+    padding: 40px 0 0 15px;
+
+}
+.button{
+    margin: 80px 20px;
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 30px;
+    width: 40%;
+    height: 40px;
+    
+}
+#box1 button{
+    color: hsl(31, 77%, 52%);
+}
+#box2 button{
+    color: hsl(184, 100%, 22%);
+}
+#box3 button{
+    color:hsl(179, 100%, 13%);
+}
+.button:hover{
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 95%);
+    
+}
+#box1 button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color:hsl(0, 0%, 95%);
+}
+#box2 button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color:hsl(0, 0%, 95%);
+}
+#box3 button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%);
+}
+
+
+/*----grid layout-----*/
+#g-container{
+   width: 60%;
+   margin: auto;
+   box-sizing: border-box;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); 
+   align-items: center;
+   padding-top: 50px;
+   line-height: 1.5;
+}
+#g-container h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 20px; 
+    font-size: 1.85rem;
+}
+#g-container p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 95%); 
+    margin: 20px;
+    font-size: 0.9375rem;
+}
